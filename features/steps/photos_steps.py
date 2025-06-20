@@ -13,6 +13,7 @@ def step_dado_fotos(context):
 def step_buscar_fotos(context):
     context.page.abrir_aplicativos()
     context.page.buscar_app()
+    context.page.buscar_fotos()
     logging.info("Busca realizada pelo app: fotos")
 
 @when("navego para Permissões > Localização no Fotos")

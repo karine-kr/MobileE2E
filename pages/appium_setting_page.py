@@ -20,6 +20,8 @@ class AppiumSettingsPage(BasePage):
        self.clicar(self.BUSCAR_CAMPO)
        self.escrever(self.BUSCAR_CAMPO, "Aplicativos")
        self.clicar(self.RESULTADO_BUSCA)
+ 
+   def buscar_appium(self):
        self.clicar(self.PESQUISA_APP)
        self.escrever(self.BUSCA_FOTOS, "Appium Settings")
        self.clicar(self.RESULTADO_FOTOS)

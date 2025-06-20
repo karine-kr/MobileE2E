@@ -13,6 +13,7 @@ def step_dado_appium_settings(context):
 def step_buscar_appium_settings(context):   
     context.page.abrir_aplicativos()
     context.page.buscar_app()
+    context.page.buscar_appium()
     logging.info("Busca realizada pelo app: Appium Settings")
 
 @when("navego para Permissões > Localização no Appium Settings")
